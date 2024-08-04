@@ -1,0 +1,16 @@
+### Get Request
+GET http://localhost:3000/api/expenses
+
+### Post Request
+POST http://localhost:3000/api/expenses
+Content-Type: application/json
+
+{
+  "ids" : 3, "title" : "what", "amount" : 1.1
+}
+
+### Get Request
+GET http://localhost:3000/api/expenses/4
+
+### Get Request
+GET http://localhost:3000/api/expenses/total-spent
